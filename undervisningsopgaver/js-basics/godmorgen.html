@@ -10,28 +10,17 @@
 <body>
 
     <script>
-        let tal = Math.round(Math.random() * 20);
-        let gæt;
-        let forsøg = 1;
-
-        function gætEtTal() {
-            gæt = prompt("Gæt et tal mellem 0 og 20!");
-            if (gæt == tal) {
-                alert(`Rigtigt!\ndu prøvede ${forsøg} gange`);
-                if (confirm("Vil du prøve igen?")) {
-                    location.reload();
-                }
-            } else if (tal > gæt) {
-                alert("for lavt - prøv igen!");
-                forsøg++;
-                gætEtTal();
-            } else {
-                alert("for højt - prøv igen");
-                forsøg++;
-                gætEtTal();
-            }
+        let time = new Date().getHours();
+        if (time >= 5 && time < 10) {
+            alert(`Godmorgen`);
+        } else if (time >= 10 && time < 18) {
+            alert(`Goddag`);
+        } else if (time >= 18 && time < 24) {
+            alert(`Godaften`);
+        } else if (time >= 24 && time >= 0 && time < 5) {
+            alert(`Godnat`);
         }
-        gætEtTal();
+
     </script>
 
 </body>
