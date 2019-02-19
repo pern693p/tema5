@@ -1,0 +1,88 @@
+[
+    {
+        "navn": "Bolognese",
+        "billede": "bolognese",
+        "kort": "...",
+        "lang": "",
+        "pris": "95",
+        "kategori": "pasta"
+    }, {
+        "navn": "Burrata",
+        "billede": "burretta",
+        "kort": ".",
+        "lang": "",
+        "pris": "95",
+        "kategori": "pasta"
+    }, {
+        "navn": "Lardo",
+        "billede": "lardo",
+        "kort": ".",
+        "lang": "",
+        "pris": "95",
+        "kategori": "pasta"
+    }, {
+        "navn": "Spinach Ricotta",
+        "billede": "spinach_ricotta",
+        "kort": "",
+        "lang": "",
+        "pris": "95",
+        "kategori": "pasta"
+    }, {
+        "navn": "Rigatoni",
+        "billede": "rigatoni",
+        "kort": "",
+        "lang": "",
+        "pris": "105",
+        "kategori": "pasta"
+    }, {
+        "navn": "Prosciutto",
+        "billede": "prosciutto",
+        "kort": ".",
+        "lang": "",
+        "pris": "85",
+        "kategori": "pasta"
+    }, {
+        "navn": "Cannoli",
+        "billede": "cannoli",
+        "kort": ".",
+        "lang": "",
+        "pris": "25",
+        "kategori": "dessert"
+    }, {
+        "navn": "Tiramisu",
+        "billede": "tiramisu",
+        "kort": "",
+        "lang": "",
+        "pris": "45",
+        "kategori": "dessert"
+    }, {
+        "navn": "Orange pellegrino",
+        "billede": "orange_pellegrino",
+        "kort": ".",
+        "lang": "",
+        "pris": "35",
+        "kategori": "drikkevarer"
+    }, {
+        "navn": "Limonata pellegrino",
+        "billede": "limonata",
+        "kort": "",
+        "lang": "",
+        "pris": "35",
+        "kategori": "drikkevarer"
+    }, {
+        "navn": "Pellegrino",
+        "billede": "pellegrino",
+        "kort": ".",
+        "lang": "",
+        "pris": "65",
+        "kategori": "drikkevarer"
+    }, {
+        "navn": "Coca Cola",
+        "billede": "coke",
+        "kort": "",
+        "lang": "",
+        "pris": "15",
+        "kategori": "drikkevarer"
+    }
+
+]
