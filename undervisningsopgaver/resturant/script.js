@@ -14,37 +14,46 @@ function start() {
 
     function visRetter() {
         dest.innerHTML = "";
-        alleRetter.forEach(enkeltRet => {
-                if (filter == "alle" || filter == enkeltRet.kategori) {
-                    let template =
+        helMenu.forEach(enkeltRet => {
+            if (filter == "alle" || filter == enkeltRet.kategori) {
+                let template =
+                    `<div class="retter">
+                        <h2>${enkeltRet.navn}</h2>
+                        <img src="mad/${enkeltRet.billede}.jpg">
+                        <p>Pris: ${enkeltRet.pris},-</p>
+                        </div>`;
 
-                        <
-                        div class = "retter" >
-                        <
-                        h2 > $ {
-                            enkeltRet.navn
-                        } < /h2> <
-                        img src = "mad/${enkeltRet.billede}.jpg" >
-                        <
-                        p > Pris: $ {
-                            enkeltRet.pris
-                        },
-                        - < /p>
+                dest.insertAdjacentHTML("beforeend", template);
+                dest.lastElementChild.addEventListener("click", open);
 
-
-                        <
-                        /div>
-
-
-
+                function open() {
+                    document.querySelector("#indhold").innerHTML =
+                        `<div class="retter">
+                        <h2>${enkeltRet.navn}</h2>
+                        <img src="mad/${enkeltRet.billede}.jpg">
+                        <p>Pris: ${enkeltRet.pris},-</p>
+                        </div>`;
+                    document.querySelector("#popup").style.display = "block";
                 }
             }
         })
 
-    document.querySelectorAll(".filter").forEach(elm => {
-        elm.addEventlistener("click", filtering);
-    })
+        document.querySelectorAll(".filter").forEach(elm => {
+            elm.addEventListener("click", filtrering);
+        })
 
+        function filtrering() {
+            filter = this.getAttribute("data-kategori");
+
+            document.querySelectorAll(".filter").forEach(elm => {
+                elm.classList.remove("valgt");
+            })
+
+            this.classList.add("valgt");
+            visRetter();
+        }
+
+    }
 
     document.querySelector("#luk button").addEventListener("click", () => {
         document.querySelector("#popup").style.display = "none";
