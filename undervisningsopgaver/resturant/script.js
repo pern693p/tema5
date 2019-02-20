@@ -19,7 +19,7 @@ function start() {
                 let template =
                     `<div class="retter">
                         <h2>${enkeltRet.navn}</h2>
-                        <img src="mad/${enkeltRet.billede}.jpg">
+                      <img src="mad/${enkeltRet.billede}.jpg">
                         <p>Pris: ${enkeltRet.pris},-</p>
                         </div>`;
 
@@ -29,9 +29,11 @@ function start() {
                 function open() {
                     document.querySelector("#indhold").innerHTML =
                         `<div class="retter">
-                        <h2>${enkeltRet.navn}</h2>
-                        <img src="mad/${enkeltRet.billede}.jpg">
-                        <p>Pris: ${enkeltRet.pris},-</p>
+                        <h2>${enkeltRet.navn}</h2> <p>${enkeltRet.kort}</p>
+
+<p>Pris: ${enkeltRet.pris},-</p>
+
+
                         </div>`;
                     document.querySelector("#popup").style.display = "block";
                 }

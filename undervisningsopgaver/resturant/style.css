@@ -10,7 +10,22 @@ body,
 html {
     overflow-x: hidden;
     margin: 0 auto;
+
 }
+
+h1,
+h2 {
+    font-family: 'Shadows Into Light',
+        cursive;
+
+}
+
+p {
+    font-family: 'Unna',
+        serif;
+
+}
+
 
 #splash a {
     font-family: 'Shadows Into Light',
@@ -99,13 +114,11 @@ button {
 }
 
 
-
 #popup {
     width: 70vw;
     height: 85vh;
     position: fixed;
-    background-color: white;
-    border: 2px solid goldenrod;
+    background-color: #FCDA60;
     display: none;
     top: 50%;
     left: 50%;
@@ -114,7 +127,7 @@ button {
 
 #indhold {
     box-sizing: border-box;
-    background-color: white;
+    background-color: #FCDA60;
     width: 60vw;
     height: 70vh;
     top: 50%;
@@ -144,5 +157,28 @@ button {
 }
 
 #luk button:hover {
-    color: indianred;
+    color: white;
+}
+
+#liste {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    margin: 5vw;
+}
+
+.retter {
+    margin: 4px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.retter img {
+    object-fit: contain;
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }

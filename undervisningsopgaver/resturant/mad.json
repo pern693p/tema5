@@ -2,77 +2,77 @@
     {
         "navn": "Rigatoni og Bolognese",
         "billede": "bolognese",
-        "kort": "rigatoni med klassisk slow cooked bolognese, parmesan, basilikum og pesto genovese.",
+        "kort": "Rigatoni med klassisk slow cooked bolognese, parmesan, basilikum og pesto genovese.",
         "lang": "",
         "pris": "95",
         "kategori": "pasta"
     }, {
         "navn": "Burrata",
-        "billede": "burretta",
-        "kort": "bøffelmozarella fra Italien med cherrytomater, rucola og olivenolie.",
+        "billede": "buretta",
+        "kort": "Bøffelmozarella fra Italien med cherrytomater, rucola og olivenolie.",
         "lang": "",
         "pris": "95",
         "kategori": "pasta"
     }, {
         "navn": "Lardo og parmigiano",
         "billede": "lardo",
-        "kort": "lardo fagottini med cremet parmesansause og røget bacon, ærter, sort peber og ærteskud.",
+        "kort": "Lardo fagottini med cremet parmesansause og røget bacon, ærter, sort peber og ærteskud.",
         "lang": "",
         "pris": "95",
         "kategori": "pasta"
     }, {
         "navn": "Spinaci og Ricotta",
         "billede": "spinach_ricotta",
-        "kort": "spinat og ricotta panzerotti med cherrytomat sauce, røget mandler, parmesan og basilikum.",
+        "kort": "Spinat og ricotta panzerotti med cherrytomat sauce, røget mandler, parmesan og basilikum.",
         "lang": "",
         "pris": "95",
         "kategori": "pasta"
     }, {
         "navn": "Rigatoni og soltørrede tomater",
         "billede": "rigatoni",
-        "kort": "rigatoni med soltørrede tomater, parmesan, basilikum, tartufo trøffel og pancetta.",
+        "kort": "Rigatoni med soltørrede tomater, parmesan, basilikum, tartufo trøffel og pancetta.",
         "lang": "",
         "pris": "105",
         "kategori": "pasta"
     }, {
         "navn": "Prosciutto",
         "billede": "prosciutto",
-        "kort": "trøffel skinke, lufttørret i parma.",
+        "kort": "Trøffel skinke, lufttørret i parma.",
         "lang": "",
         "pris": "85",
         "kategori": "pasta"
     }, {
         "navn": "Cannoli",
         "billede": "cannoli",
-        "kort": "sprødt vaffelrør med sød ricottacreme og mørk chokolade.",
+        "kort": "Sprødt vaffelrør med sød ricottacreme og mørk chokolade.",
         "lang": "",
         "pris": "25",
         "kategori": "dessert"
     }, {
         "navn": "Tiramisu",
         "billede": "tiramisu",
-        "kort": "hjemmet lavet italiensk tiramisu gelato med sprøde lady fingers og let kaffearoma.",
+        "kort": "Hjemmet lavet italiensk tiramisu gelato med sprøde lady fingers og let kaffearoma.",
         "lang": "",
         "pris": "45",
         "kategori": "dessert"
     }, {
         "navn": "Orange pellegrino",
         "billede": "orange_pellegrino",
-        "kort": "italiensk brusende sodavandslæskedrik med smag af appelsin",
+        "kort": "Italiensk brusende sodavandslæskedrik med smag af appelsin.",
         "lang": "",
         "pris": "35",
         "kategori": "drikkevarer"
     }, {
         "navn": "Limonata pellegrino",
         "billede": "limonata",
-        "kort": "italiensk brusende sodavandslæskedrink med smag af citron",
+        "kort": "Italiensk brusende sodavandslæskedrink med smag af citron.",
         "lang": "",
         "pris": "35",
         "kategori": "drikkevarer"
     }, {
         "navn": "Pellegrino",
         "billede": "pellegrino",
-        "kort": "den velkendte let brusende italienske danskvand 1.5 liter",
+        "kort": "Den velkendte let brusende italienske danskvand 1.5 liter.",
         "lang": "",
         "pris": "65",
         "kategori": "drikkevarer"
