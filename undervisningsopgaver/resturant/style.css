@@ -1,11 +1,3 @@
-font-family: 'Shadows Into Light',
-cursive;
-font-family: 'Unna',
-serif;
-font-family: 'Marck Script',
-cursive;
-
-
 body,
 html {
     overflow-x: hidden;
@@ -101,11 +93,18 @@ button {
     font-size: 2rem;
     text-decoration: none;
     border: none;
+    box-shadow: none;
+    border-color: none;
+    background-color: none;
+    box-sizing: none;
 
 }
 
 
 
+button:hover {
+    color: #FCDA60;
+}
 
 .menu {
     display: flex;
@@ -134,13 +133,17 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     position: fixed;
+
 }
 
+/*
 #indhold img {
     object-fit: contain;
     width: 100%;
     height: 300px;
+
 }
+*/
 
 #luk {
     box-sizing: border-box;
@@ -181,4 +184,83 @@ button {
     height: 400px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+
+
+
+@media only screen and (min-width: 500px) {
+    #retter {
+        grid-template-columns: auto auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .menu {
+        flex-direction: column;
+    }
+
+    button {
+        font-size: 1.5rem;
+
+        /*        width: 150px;*/
+    }
+
+    .retter {
+        margin-left: 40px;
+        margin-right: 80px;
+    }
+
+    #tekst_billede {
+        flex-direction: column;
+    }
+
+    #info_tekst h1 {
+        font-size: 2rem;
+    }
+
+    #info_billede img {
+        width: 300px;
+    }
+
+}
+
+
+
+@media only screen and (min-width:800px) {
+    #retter {
+        grid-template-columns: auto auto auto;
+    }
+
+
+
+}
+
+@media only screen and (max-width:800px) {
+    #retter {
+        max-width: 90%;
+    }
+
+    #info_tekst h1,
+    h2 {
+        font-size: 2rem;
+        margin: 20px;
+    }
+
+    #info_billede img {
+        width: 300px;
+        margin: 10px;
+
+    }
+
+    #splash a {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+    }
+
 }
