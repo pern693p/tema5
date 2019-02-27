@@ -85,7 +85,7 @@ p {
 #info_tekst h1 {
     font-family: 'Shadows Into Light',
         cursive;
-    font-size: 4rem;
+    font-size: 3rem;
 
 }
 
@@ -115,8 +115,8 @@ button:hover {
 
 
 #popup {
-    width: 70vw;
-    height: 85vh;
+    width: 40vw;
+    height: 60vh;
     position: fixed;
     background-color: #FCDA60;
     display: none;
